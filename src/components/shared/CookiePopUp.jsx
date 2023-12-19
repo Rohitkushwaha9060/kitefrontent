@@ -7,7 +7,7 @@ function CookiePopUp() {
     <>
       <CookieConsent
         location="bottom"
-        style={{ background: "#0d6efd" }}
+        style={{ background: "#0d6efd", zIndex: "1", marginBottom: "50px" }}
         buttonStyle={{
           color: "#000",
           background: "#fff",

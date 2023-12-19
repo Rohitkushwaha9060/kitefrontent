@@ -1,9 +1,11 @@
+import Image from "next/image";
 import React from "react";
+import Com from "../shared/Com";
 
 function CourseOnline() {
   return (
     <>
-      <h1>Online Course</h1>
+      <Com />
     </>
   );
 }

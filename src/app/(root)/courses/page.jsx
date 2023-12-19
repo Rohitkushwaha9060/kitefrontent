@@ -10,7 +10,13 @@ export default function Home() {
 
   return (
     <PageAnimation>
-      {mode === "offline" ? <CourseOffline /> : <CourseOnline />}
+      {mode === "offline" ? (
+        <CourseOffline />
+      ) : mode === "online" ? (
+        <CourseOnline />
+      ) : (
+        "none"
+      )}
     </PageAnimation>
   );
 }
