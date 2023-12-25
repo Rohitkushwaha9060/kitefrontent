@@ -5,14 +5,18 @@ function Com() {
   return (
     <>
       <section className="container my-5">
-        <Image
-          src="/com.jpg"
-          width={500}
-          height={500}
-          alt="com image"
-          className="img-fluid rounded"
-          style={{ width: "100%", height: "100%" }}
-        />
+        <div className="row">
+          <div className="col-12 m-auto rounded">
+            <Image
+              src="/com.jpg"
+              alt="course image"
+              width={500}
+              height={300}
+              style={{ width: "100%", height: "300px" }}
+              className="img-fluid rounded shadow-lg"
+            />
+          </div>
+        </div>
       </section>
     </>
   );
